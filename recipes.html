@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes Table</title>
+<style>
+body {
+	background-color: #3A3A3A;
+	color: #fbfbfb;
+	font-size: 150%;
+}	
+	
+.recipe-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipe-table th, .recipe-table td {
+    border: 1px solid #1A1A1A;
+    padding: 8px;
+    text-align: left;
+    width: 20%;
+}
+
+.recipe-table th {
+    background-color: #050505;
+    font-weight: bold;
+    width: 20%;
+}
+
+.recipe-table tr:nth-child(even) {
+    background-color: #4D4D4D;
+    width: 20%;
+}
+
+.recipe-table tr:hover {
+    background-color: #151515;
+    width: 20%;
+}
+
+.recipe-table td:nth-child(1), .recipe-table th:nth-child(1) {
+    width: 40%;
+    font-weight: bold;
+    
+}
+
+.recipe-table td:nth-child(1){
+	color: #F0AD67
+}
+
+</style>
+</head>
+<body>
+<table class="recipe-table">
+<thead>
+<tr>
+<th>Output</th>
+<th>Input 1</th>
+<th>Input 2</th>
+<th>Input 3</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Random avatar charm</td>
+		<td class='key'>Key</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Reroll avatar charm</td>
+		<td class='charm'>Charm</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Transform charm to jewel</td>
+
+		<td class='charm'>Charm</td>
+		
+		<td class='key'>Key</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Add +10% move speed to charm</td>
+		<td class='charm'>Charm</td>
+		<td>Stamina Potion</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Add +10% FCR to charm</td>
+		<td class='charm'>Charm</td>
+	
+		<td>Minor Mana Potion</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Add +10% attack speed to charm</td>
+		<td class='charm'>Charm</td>
+		<td>Minor Health Potion</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Andariel</td>
+
+		<td class='heart'>Heart</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Duriel</td>
+
+		<td class='brain'>Brain</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Mephisto</td>
+
+		<td class='jawbone'>Jawbone</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Diablo</td>
+
+		<td class='eye'>Eye</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Baal</td>
+
+		<td class='horn'>Horn</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Griswold</td>
+
+		<td class='tail'>Tail</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Smith</td>
+
+		<td class='flag'>Flag</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Radament</td>
+
+		<td class='fang'>Fang</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Summoner</td>
+
+		<td class='quill'>Quill</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Council Member</td>
+
+		<td class='spleen'>Spleen</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Izual</td>
+
+		<td class='herb'>Herb</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>Avatar of Nihlathak</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Tyrael</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Izual Ghost</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Amazon</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Sorceress</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Necromancer</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Paladin</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Barbarian</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Druid</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Assasin</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Rogue</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Desert Merc</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Iron Wolf</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Barb Merc 1H</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Barb Merc 2H</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Talic</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Madawc</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Korlic</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Cain 1</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Cain 2</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Gheed</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Akara</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Kashya</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='eye'>Eye</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Charsi</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='horn'>Horn</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Warriv 1</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Warriv 2</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Atma</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Drog</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Fara</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Greiz</td>
+
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Elzix</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='eye'>Eye</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Geglash</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='horn'>Horn</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Jerhyn</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Lysander</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Meshif</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Asheara</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Hratli</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Alkor</td>
+
+		<td class='eye'>Eye</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Ormus</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='horn'>Horn</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Halbu</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Natalya</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Jamella</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Larzuk</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Anya</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Malah</td>
+
+		<td class='horn'>Horn</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Qual-Kehk</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='tail'>Tail</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Clay Golem</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Blood Golem</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Iron Golem</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Fire Golem</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Hydra</td>
+
+		<td class='tail'>Tail</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Decoy</td>
+
+		<td class='flag'>Flag</td>
+		
+		<td class='flag'>Flag</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Blade Sentry</td>
+
+		<td class='flag'>Flag</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Inferno Sentry</td>
+
+		<td class='flag'>Flag</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Death Sentry</td>
+
+		<td class='flag'>Flag</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Raven</td>
+
+		<td class='flag'>Flag</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Wolf</td>
+
+		<td class='fang'>Fang</td>
+		
+		<td class='fang'>Fang</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Spirit Barb</td>
+
+		<td class='fang'>Fang</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Bear</td>
+
+		<td class='fang'>Fang</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Werewolf</td>
+
+		<td class='fang'>Fang</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Werebear</td>
+
+		<td class='quill'>Quill</td>
+		
+		<td class='quill'>Quill</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Chicken</td>
+
+		<td class='quill'>Quill</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Rat</td>
+
+		<td class='quill'>Quill</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Cow</td>
+
+		<td class='spleen'>Spleen</td>
+		
+		<td class='spleen'>Spleen</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Camel</td>
+
+		<td class='spleen'>Spleen</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Male Citizen 1</td>
+
+		<td class='herb'>Herb</td>
+		
+		<td class='herb'>Herb</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Avatar of Female Citizen 1</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+	</tr>
+	<tr>
+		<td>Avatar of Merchant 1</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+	</tr>
+	<tr>
+		<td>Avatar of Merchant 2</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bug</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Scorpion</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Larva</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Male Citizen 2</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Female Citizen 2</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Snake</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Parrot</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Spider</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='heart'>Heart</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Dark Wanderer</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bunny</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+	</tr>
+	<tr>
+		<td>Avatar of Dead Barbarian</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Horse</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Pig</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Seagull</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of LG Guard</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Skeleton</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Zombie</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bighead</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Foul Crow</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='jawbone'>Jawbone</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fallen One</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Brute</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Sand Raider</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Wraith</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Corrupt Rogue</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Baboon</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Goatman</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fallen Shaman</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Quill Rat</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Sand Maggot</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Claw Viper</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Sand Leaper</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Panther Woman</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Swarm</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Scarab</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Mummy</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Unraveller</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Vulture</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Mosquito</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Willowisp</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Arachnid</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Thorn Hulk</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Vampire</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bat Demon</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fetish</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Dark Ranger</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Dark Lancer</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Skeleton Archer</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Maggot Baby</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Blunder Bore</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bone Fetish</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Maggot</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Scimitar</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Zealot</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Cantor</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Frog Demon</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Swamp Tentacle</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Swamp Serpent</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='fang'>Fang</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Gargoyle Trap</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='quill'>Quill</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Poison Skeleton</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='quill'>Quill</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fetish Shaman</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='quill'>Quill</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Vile Mother</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='spleen'>Spleen</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Vile Child</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='spleen'>Spleen</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Finger Mage</td>
+
+		<td class='heart'>Heart</td>
+		
+		<td class='herb'>Herb</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Regurgitator</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+	</tr>
+	<tr>
+		<td>Avatar of Doom Knight</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+	</tr>
+	<tr>
+		<td>Avatar of Necro Mage</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Invisible One</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Slinger</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Cold Skeleton</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fire Skeleton</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Light Skeleton</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Hell Bovine</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Fetish Blower</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='brain'>Brain</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Spirit</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='jawbone'>Jawbone</td>
+	</tr>
+	<tr>
+		<td>Avatar of Trapped Soul</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Reanimated Horde</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Siege Beast</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Snow Yeti</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Minion</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Minion Suicider</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Succubus</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Witch</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='jawbone'>Jawbone</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Overseer</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='eye'>Eye</td>
+	</tr>
+	<tr>
+		<td>Avatar of Imp</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Frozen Horror</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Blood Lord</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Death Mauler</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Putrid Defiler</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Pain Worm</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Baal Tentacle</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='eye'>Eye</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Venom Lord</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='horn'>Horn</td>
+	</tr>
+	<tr>
+		<td>Avatar of Speed</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Ancient Statue</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Wall</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Catapult</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Minion Spawner</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Baricade Door</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='horn'>Horn</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Prison Door</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='tail'>Tail</td>
+	</tr>
+	<tr>
+		<td>Avatar of Tower</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Melee Trap</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+	<tr>
+		<td>Avatar of Turret</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='quill'>Quill</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bone Prison</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='spleen'>Spleen</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bone Wall</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='tail'>Tail</td>
+		
+		<td class='herb'>Herb</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bird</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='flag'>Flag</td>
+	</tr>
+	<tr>
+		<td>Avatar of Bat</td>
+
+		<td class='brain'>Brain</td>
+		
+		<td class='flag'>Flag</td>
+		
+		<td class='fang'>Fang</td>
+	</tr>
+</tbody>
+</table>
+
+</body>
+</html>

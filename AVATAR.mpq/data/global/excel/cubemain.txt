@@ -1,0 +1,362 @@
+description	enabled	firstLadderSeason	lastLadderSeason	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip						hst																																																																																							0
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1				0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1				0	28				2	leg	tbk						Cow Portal																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion	1				0					7	hpot,qty=3	mpot,qty=3	gem2					rvl																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion	1				0					7	hpot,qty=3	mpot,qty=3	gem0					rvs																																																																																							0
+3 Rejuvenation Potions -> Full Rejuvenation Potion	1				0					3	rvs,qty=3							rvl																																																																																							0
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet	1				0					7	amu,mag	gpv	gpy	gpb	gpg	gpr	gpw	amu,mag,pre=331	50																																																																																						0
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring	1				0					3	rin,mag	gpr	opm					rin,mag,pre=372	30																																																																																						0
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring	1				0					3	rin,mag	gpb	wms					rin,mag,pre=353	30																																																																																						0
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring	1				0					3	rin,mag	gpy	rvs					rin,mag,pre=392	30																																																																																						0
+1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring	1				0					3	rin,mag	gpg	yps					rin,mag,pre=412	30																																																																																						0
+1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe	1				0					2	axe	knif						tax,nor																																																																																							0
+1 Spear (Any) + 1 Arrows -> Javelins	1				0					2	spea	aqv						jav,nor																																																																																							0
+3 Magic Rings -> Magic Amulet	1				0					3	rin,mag,qty=3							amu,mag		75																																																																																					0
+3 Magic Amulets -> Magic Ring	1				0					3	amu,mag,qty=3							rin,mag		75																																																																																					0
+3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon	1				0					4	weap,sock	gem2,qty=3						usetype,mag	30		60	sock			1	2																																																																															0
+3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon	1				0					4	weap,mag	gem3,qty=3						usetype,mag	30		60	sock			1	2																																																																															0
+1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes	1				0					4	shld,mag	gemz,qty=2	spc					usetype,mag,suf=162	30		60																																																																																				0
+4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1				0					6	swor,mag	gemr	hpot,qty=4					usetype,mag,suf=352	30		60																																																																																				0
+1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1				0					4	kri	gemd	staf	belt				pole,mag,pre=191	50		60																																																																																				0
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
+2 Arrows -> Bolts	1				0					2	aqv,qty=2							cqv																																																																																							0
+2 Bolts -> Arrows	1				0					2	cqv,qty=2							aqv																																																																																							0
+3 Chipped Amethysts -> Flawed Amethyst	1				0					3	gcv,qty=3							gfv																																																																																							0
+3 Flawed Amethysts -> Standard Amethyst	1				0					3	gfv,qty=3							gsv																																																																																							0
+3 Standard Amethysts -> Flawless Amethyst	1				0					3	gsv,qty=3							gzv																																																																																							0
+3 Flawless Amethysts -> Perfect Amethyst	1				0					3	gzv,qty=3							gpv																																																																																							0
+3 Chipped Rubies -> Flawed Ruby	1				0					3	gcr,qty=3							gfr																																																																																							0
+3 Flawed Rubies -> Standard Ruby	1				0					3	gfr,qty=3							gsr																																																																																							0
+3 Standard Rubies -> Flawless Ruby	1				0					3	gsr,qty=3							glr																																																																																							0
+3 Flawless Rubies -> Perfect Ruby	1				0					3	glr,qty=3							gpr																																																																																							0
+3 Chipped Sapphires -> Flawed Sapphire	1				0					3	gcb,qty=3							gfb																																																																																							0
+3 Flawed Sapphires -> Standard Sapphire	1				0					3	gfb,qty=3							gsb																																																																																							0
+3 Standard Sapphires -> Flawless Sapphire	1				0					3	gsb,qty=3							glb																																																																																							0
+3 Flawless Sapphires -> Perfect Sapphire	1				0					3	glb,qty=3							gpb																																																																																							0
+3 Chipped Topazes -> Flawed Topaz	1				0					3	gcy,qty=3							gfy																																																																																							0
+3 Flawed Topazes -> Standard Topaz	1				0					3	gfy,qty=3							gsy																																																																																							0
+3 Standard Topazes -> Flawless Topaz	1				0					3	gsy,qty=3							gly																																																																																							0
+3 Flawless Topazes -> Perfect Topaz	1				0					3	gly,qty=3							gpy																																																																																							0
+3 Chipped Emeralds -> Flawed Emerald	1				0					3	gcg,qty=3							gfg																																																																																							0
+3 Flawed Emeralds -> Standard Emerald	1				0					3	gfg,qty=3							gsg																																																																																							0
+3 Standard Emeralds -> Flawless Emerald	1				0					3	gsg,qty=3							glg																																																																																							0
+3 Flawless Emeralds -> Perfect Emerald	1				0					3	glg,qty=3							gpg																																																																																							0
+3 Chipped Diamonds -> Flawed Diamond	1				0					3	gcw,qty=3							gfw																																																																																							0
+3 Flawed Diamonds -> Standard Diamond	1				0					3	gfw,qty=3							gsw																																																																																							0
+3 Standard Diamonds -> Flawless Diamond	1				0					3	gsw,qty=3							glw																																																																																							0
+3 Flawless Diamonds -> Perfect Diamond	1				0					3	glw,qty=3							gpw																																																																																							0
+3 Chipped Skulls -> Flawed Skull	1				0					3	skc,qty=3							skf																																																																																							0
+3 Flawed Skulls -> Standard Skull	1				0					3	skf,qty=3							sku																																																																																							0
+3 Standard Skulls -> Flawless Skull	1				0					3	sku,qty=3							skl																																																																																							0
+3 Flawless Skulls -> Perfect Skull	1				0					3	skl,qty=3							skz																																																																																							0
+3 El Runes -> Eld Rune	1				100					3	r01,qty=3							r02																																																																																							0
+3 Eld Runes -> Tir Rune	1				100					3	r02,qty=3							r03																																																																																							0
+3 Tir Runes -> Nef Rune	1				100					3	r03,qty=3							r04																																																																																							0
+3 Nef Runes -> Eth Rune	1				100					3	r04,qty=3							r05																																																																																							0
+3 Eth Runes -> Ith Rune	1				100					3	r05,qty=3							r06																																																																																							0
+3 Ith Runes -> Tal Rune	1				100					3	r06,qty=3							r07																																																																																							0
+3 Tal Runes -> Ral Rune	1				100					3	r07,qty=3							r08																																																																																							0
+3 Ral Runes -> Ort Rune	1				100					3	r08,qty=3							r09																																																																																							0
+3 Ort Runes -> Thul Rune	1				100					3	r09,qty=3							r10																																																																																							0
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	any,mag	gem4,qty=3						usetype,mag			100																																																																																				0
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	any,rar	skz,qty=6						usetype,rar		40	40																																																																																				0
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	any,rar	skz	The Stone of Jordan					usetype,rar		66	66																																																																																				0
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item	1				0					5	any,rar,nos	skz,qty=3	The Stone of Jordan					useitem,sock=1																																																																																							0
+1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	fhl,mag,upg	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	ac-miss			25	50																																																																					0
+1 Magic Chain Boots + 1 Jewel + 1 Ral Rune + 1 Perfect Sapphire -> Hit Power Boots	1				100					4	mbt,mag,upg	jew	r08	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	ac-hth			25	60																																																																					0
+1 Magic Chain Gloves + 1 Jewel + 1 Ort Rune + 1 Perfect Sapphire -> Hit Power Gloves	1				100					4	mgl,mag,upg	jew	r09	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	knock			1	1																																																																					0
+1 Magic Heavy Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Sapphire -> Hit Power Belt	1				100					4	tbl,mag,upg	jew	r07	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	dmg-to-mana			5	10																																																																					0
+1 Magic Gothic Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Sapphire -> Hit Power Shield	1				100					4	gts,mag,upg	jew	r05	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	block			5	10																																																																					0
+1 Magic Field Plate + 1 Jewel + 1 Nef Rune + 1 Perfect Sapphire -> Hit Power Body	1				100					4	fld,mag,upg	jew	r04	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	balance1			10	20																																																																					0
+1 Magic Amulet + 1 Jewel + Thul Rune + 1 Perfect Sapphire -> Hit Power Amulet	1				100					4	amul,mag	jew	r10	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	howl			5	15																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Sapphire -> Hit Power Ring	1				100					4	ring,mag	jew	r11	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	6	dex			1	5																																																																					0
+1 Magic Blunt Weapon + 1 Jewel + 1 Tir Rune + 1 Perfect Sapphire -> Hit Power Weapon	1				100					4	blun,mag	jew	r03	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	dmg%			35	60																																																																					0
+1 Magic Helm + 1 Jewel + 1 Ral Rune + 1 Perfect Ruby -> Blood Helm	1				100					4	hlm,mag,upg	jew	r08	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
+1 Magic Light Plated Boots + 1 Jewel + 1 Eth Rune + 1 Perfect Ruby -> Blood Boots	1				100					4	tbt,mag,upg	jew	r05	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
+1 Magic Heavy Gloves + 1 Jewel + 1 Nef Rune + 1 Perfect Ruby -> Blood Gloves	1				100					4	vgl,mag,upg	jew	r04	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
+1 Magic Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Ruby -> Blood Belt	1				100					4	mbl,mag,upg	jew	r07	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	openwounds			5	10																																																																					0
+1 Magic Spiked Shield + 1 Jewel + 1 Ith Rune + 1 Perfect Ruby -> Blood Shield	1				100					4	spk,mag,upg	jew	r06	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	thorns			4	7																																																																					0
+1 Magic Plate Mail + 1 Jewel + 1 Thul Rune + 1 Perfect Ruby -> Blood Body	1				100					4	plt,mag,upg	jew	r10	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	demon-heal			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Amn Rune + 1 Perfect Ruby -> Blood Amulet	1				100					4	amul,mag	jew	r11	gpr				usetype,crf		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Sol Rune + 1 Perfect Ruby -> Blood Ring	1				100					4	ring,mag	jew	r12	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
+1 Magic Axe + 1 Jewel + Ort Rune + 1 Perfect Ruby -> Blood Weapon	1				100					4	axe,mag	jew	r09	gpr				usetype,crf		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
+1 Magic Mask + 1 Jewel + Nef Rune + 1 Perfect Amethyst -> Caster Helm	1				100					4	msk,mag,upg	jew	r04	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+1 Magic Boots + 1 Jewel + Thul Rune + 1 Perfect Amethyst -> Caster Boots	1				100					4	lbt,mag,upg	jew	r10	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+1 Magic Leather Gloves + 1 Jewel + Ort Rune + 1 Perfect Amethyst -> Caster Gloves	1				100					4	lgl,mag,upg	jew	r09	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Light Belt + 1 Jewel + Ith Rune + 1 Perfect Amethyst -> Caster Belt	1				100					4	vbl,mag,upg	jew	r06	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Small Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Amethyst -> Caster Shield	1				100					4	sml,mag,upg	jew	r05	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+1 Magic Light Plate + 1 Jewel + 1 Tal Rune + 1 Perfect Amethyst -> Caster Body	1				100					4	ltp,mag,upg	jew	r07	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Ral Rune + 1 Perfect Amethyst -> Caster Amulet	1				100					4	amul,mag	jew	r08	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Amethyst -> Caster Ring	1				100					4	ring,mag	jew	r11	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+1 Magic Rod + 1 Jewel + 1 Tir Rune + 1 Perfect Amethyst -> Caster Weapon	1				100					4	rod,mag	jew	r03	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+1 Magic Crown + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1				100					4	crn,mag,upg	jew	r06	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
+1 Magic Plated Boots + 1 Jewel + 1 Ort Rune + 1 Perfect Emerald -> Safety Boots	1				100					4	hbt,mag,upg	jew	r09	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
+1 Magic Gauntlets + 1 Jewel + 1 Ral Rune + 1 Perfect Emerald -> Safety Gloves	1				100					4	hgl,mag,upg	jew	r08	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
+1 Magic Sash + 1 Jewel + 1 Tal Rune + 1 Perfect Emerald -> Safety Belt	1				100					4	lbl,mag,upg	jew	r07	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-pois			5	10	ac%			10	30																																																																0
+1 Magic Kite Shield + 1 Jewel + 1 Nef Rune + 1 Perfect Emerald -> Safety Shield	1				100					4	kit,mag,upg	jew	r04	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-mag			5	10	ac%			10	30																																																																0
+1 Magic Breast Plate + 1 Jewel + 1 Eth Rune + 1 Perfect Emerald -> Safety Body	1				100					4	brs,mag,upg	jew	r05	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	half-freeze			1	1	ac%			10	30																																																																0
+1 Magic Amulet + 1 Jewel + 1 Thul Rune + 1 Perfect Emerald -> Safety Amulet	1				100					4	amul,mag	jew	r10	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Emerald -> Safety Ring	1				100					4	ring,mag	jew	r11	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
+1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1				100					4	spea,mag	jew	r12	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
+3 Thul Runes + 1 Chipped Topaz -> Amn Rune	1				100					4	r10,qty=3	gcy						r11																																																																																							0
+3 Amn Runes + 1 Chipped Amethyst -> Sol Rune	1				100					4	r11,qty=3	gcv						r12																																																																																							0
+3 Sol Runes + 1 Chipped Sapphire -> Shael Rune	1				100					4	r12,qty=3	gcb						r13																																																																																							0
+3 Shael Runes + 1 Chipped Ruby -> Dol Rune	1				100					4	r13,qty=3	gcr						r14																																																																																							0
+3 Dol Runes + 1 Chipped Emerald -> Hel Rune	1				100					4	r14,qty=3	gcg						r15																																																																																							0
+3 Hel Runes + 1 Chipped Diamond -> Io Rune	1				100					4	r15,qty=3	gcw						r16																																																																																							0
+3 Io Runes + 1 Flawed Topaz -> Lum Rune	1				100					4	r16,qty=3	gfy						r17																																																																																							0
+3 Lum Runes + 1 Flawed Amethyst -> Ko Rune	1				100					4	r17,qty=3	gfv						r18																																																																																							0
+3 Ko Runes + 1 Flawed Sapphire -> Fal Rune	1				100					4	r18,qty=3	gfb						r19																																																																																							0
+3 Fal Runes + 1 Flawed Ruby -> Lem Rune	1				100					4	r19,qty=3	gfr						r20																																																																																							0
+3 Lem Runes + 1 Flawed Emerald -> Pul Rune	1				100					4	r20,qty=3	gfg						r21																																																																																							0
+2 Pul Runes + 1 Flawed Diamond -> Um Rune	1				100					3	r21,qty=2	gfw						r22																																																																																							0
+2 Um Runes + 1 Standard Topaz -> Mal Rune	1				100					3	r22,qty=2	gsy						r23																																																																																							0
+2 Mal Runes + 1 Standard Amethyst -> Ist Rune	1				100					3	r23,qty=2	gsv						r24																																																																																							0
+2 Ist Runes + 1 Standard Sapphire -> Gul Rune	1				100					3	r24,qty=2	gsb						r25																																																																																							0
+2 Gul Runes + 1 Standard Ruby -> Vex Rune	1				100					3	r25,qty=2	gsr						r26																																																																																							0
+2 Vex Runes + 1 Standard Emerald -> Ohm Rune	1				100					3	r26,qty=2	gsg						r27																																																																																							0
+2 Ohm Runes + 1 Standard Diamond -> Lo Rune	1				100					3	r27,qty=2	gsw						r28																																																																																							0
+2 Lo Runes + 1 Flawless Topaz -> Sur Rune	1				100					3	r28,qty=2	gly						r29																																																																																							0
+2 Sur Runes + 1 Flawless Amethyst -> Ber Rune	1				100					3	r29,qty=2	gzv						r30																																																																																							0
+2 Ber Runes + 1 Flawless Sapphire -> Jah Rune	1				100					3	r30,qty=2	glb						r31																																																																																							0
+2 Jah Runes + 1 Flawless Ruby -> Cham Rune	1				100					3	r31,qty=2	glr						r32																																																																																							0
+2 Cham Runes + 1 Flawless Emerald -> Zod Rune	1				100					3	r32,qty=2	glg						r33																																																																																							0
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1				100					4	tors,nor,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1				100					4	weap,nor,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1				100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
+1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon	1				100					3	weap,low	r02	gem0					usetype,nor																																																																																							0
+1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor	1				100					3	armo,low	r01	gem0					usetype,nor																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon	1				100					4	weap,bas,uni	r08	r12	gpg				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor	1				100					4	armo,bas,uni	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1				100					4	weap,exc,uni	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor	1				100					4	armo,exc,uni	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon	1				100					4	weap,bas,rar	r09	r11	gpb				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	1				100					4	armo,bas,rar	r08	r10	gpv				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	1				100					4	weap,exc,rar	r19	r22	gpb				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	1				100					4	armo,exc,rar	r18	r21	gpv				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1				100					2	weap,noe	r09						useitem,rep,qty=255																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1				100					2	armo,noe	r08						useitem,rep,qty=255																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	weap,noe	r09	gem0					useitem,rep,rch,qty=255																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	armo,noe	r08	gem1					useitem,rep,rch,qty=255																																																																																							0
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1				100					3	any,sock	r15	tsc					useitem,uns																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor					100					3	armo,hiq,nos	jew	r08					useitem,tmp																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon					100					3	weap,hiq,nos	jew	r08					useitem,tmp																																																																																							0
+1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring					100					3	ring,mag	jew	r08					usetype,tmp				levelreq			3	3																																																																															0
+1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet					100					3	amu,mag	jew	r08					usetype,tmp				levelreq			5	5																																																																															0
+1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating					100					3	weap,tmp	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
+3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				0					4	weap,mag	gem0,qty=3						usetype,mag	25		50	sock			1	2																																																																															0
+1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1				100					4	tes	ceh	bet	fed				toa																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon	1	1	2		100					4	weap,bas,set	r08	r12	gpg				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1	1	2		100					4	armo,bas,set	r07	r13	gpw				useitem,mod,exc				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1	2		100					4	weap,exc,set	r17	r21	gpg				useitem,mod,eli				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1	2		100					4	armo,exc,set	r18	r20	gpw				useitem,mod,eli				levelreq			7	7																																																																															0
+Avatar charm	1				100					1	key							cm1,uni	1		1																																																																																				0
+Avatar charm reroll	1				100					1	cm1,uni							cm1,uni	1		1																																																																																				0
+Avatar jewel	1				100					2	cm1,uni	key						jew,mod																																																																																							0
+Move to charm	1				100					2	cm1,uni	vps						useitem				move2			10	10																																																																															0
+FCR to charm	1				100					2	cm1,uni	mp1						useitem				cast2			10	10																																																																															0
+Attack speed to charm	1				100					2	cm1,uni	hp1						useitem				swing2			10	10																																																																															0
+Avatar of Andariel	1				100					1	hrt,							Avatar of Andariel	1		1																																																																																				0
+Avatar of Duriel	1				100					1	brz,							Avatar of Duriel	1		1																																																																																				0
+Avatar of Mephisto	1				100					1	jaw,							Avatar of Mephisto	1		1																																																																																				0
+Avatar of Diablo	1				100					1	eyz,							Avatar of Diablo																																																																																							0
+Avatar of Baal	1				100					1	hrn,							Avatar of Baal																																																																																							0
+Avatar of Griswold	1				100					1	tal,							Avatar of Griswold																																																																																							0
+Avatar of Smith	1				100					1	flg,							Avatar of Smith																																																																																							0
+Avatar of Radament	1				100					1	fng,							Avatar of Radament																																																																																							0
+Avatar of Summoner	1				100					1	qll,							Avatar of Summoner																																																																																							0
+Avatar of Council Member	1				100					1	spe,							Avatar of Council Member																																																																																							0
+Avatar of Izual	1				100					1	hrb,							Avatar of Izual																																																																																							0
+Avatar of Nihlathak	1				100					2	hrt	hrt						Avatar of Nihlathak																																																																																							0
+Avatar of Tyrael	1				100					2	hrt	brz						Avatar of Tyrael																																																																																							0
+Avatar of Izual Ghost	1				100					2	hrt	jaw						Avatar of Izual Ghost																																																																																							0
+Avatar of Amazon	1				100					2	hrt	eyz						Avatar of Amazon																																																																																							0
+Avatar of Sorceress	1				100					2	hrt	hrn						Avatar of Sorceress																																																																																							0
+Avatar of Necromancer	1				100					2	hrt	tal						Avatar of Necromancer																																																																																							0
+Avatar of Paladin	1				100					2	hrt	flg						Avatar of Paladin																																																																																							0
+Avatar of Barbarian	1				100					2	hrt	fng						Avatar of Barbarian																																																																																							0
+Avatar of Druid	1				100					2	hrt	qll						Avatar of Druid																																																																																							0
+Avatar of Assasin	1				100					2	hrt	spe						Avatar of Assasin																																																																																							0
+Avatar of Rogue	1				100					2	hrt	hrb						Avatar of Rogue																																																																																							0
+Avatar of Desert Merc	1				100					2	brz	brz						Avatar of Desert Merc																																																																																							0
+Avatar of Iron Wolf	1				100					2	brz	jaw						Avatar of Iron Wolf																																																																																							0
+Avatar of Barb Merc 1H	1				100					2	brz	eyz						Avatar of Barb Merc 1H																																																																																							0
+Avatar of Barb Merc 2H	1				100					2	brz	hrn						Avatar of Barb Merc 2H																																																																																							0
+Avatar of Talic	1				100					2	brz	tal						Avatar of Talic																																																																																							0
+Avatar of Madawc	1				100					2	brz	flg						Avatar of Madawc																																																																																							0
+Avatar of Korlic	1				100					2	brz	fng						Avatar of Korlic																																																																																							0
+Avatar of Cain 1	1				100					2	brz	qll						Avatar of Cain 1																																																																																							0
+Avatar of Cain 2	1				100					2	brz	spe						Avatar of Cain 2																																																																																							0
+Avatar of Gheed	1				100					2	brz	hrb						Avatar of Gheed																																																																																							0
+Avatar of Akara	1				100					2	jaw	jaw						Avatar of Akara																																																																																							0
+Avatar of Kashya	1				100					2	jaw	eyz						Avatar of Kashya																																																																																							0
+Avatar of Charsi	1				100					2	jaw	hrn						Avatar of Charsi																																																																																							0
+Avatar of Warriv 1	1				100					2	jaw	tal						Avatar of Warriv 1																																																																																							0
+Avatar of Warriv 2	1				100					2	jaw	flg						Avatar of Warriv 2																																																																																							0
+Avatar of Atma	1				100					2	jaw	fng						Avatar of Atma																																																																																							0
+Avatar of Drognan	1				100					2	jaw	qll						Avatar of Drognan																																																																																							0
+Avatar of Fara	1				100					2	jaw	spe						Avatar of Fara																																																																																							0
+Avatar of Greiz	1				100					2	jaw	hrb						Avatar of Greiz																																																																																							0
+Avatar of Elzix	1				100					2	eyz	eyz						Avatar of Elzix																																																																																							0
+Avatar of Geglash	1				100					2	eyz	hrn						Avatar of Geglash																																																																																							0
+Avatar of Jerhyn	1				100					2	eyz	tal						Avatar of Jerhyn																																																																																							0
+Avatar of Lysander	1				100					2	eyz	flg						Avatar of Lysander																																																																																							0
+Avatar of Meshif	1				100					2	eyz	fng						Avatar of Meshif																																																																																							0
+Avatar of Asheara	1				100					2	eyz	qll						Avatar of Asheara																																																																																							0
+Avatar of Hratli	1				100					2	eyz	spe						Avatar of Hratli																																																																																							0
+Avatar of Alkor	1				100					2	eyz	hrb						Avatar of Alkor																																																																																							0
+Avatar of Ormus	1				100					2	hrn	hrn						Avatar of Ormus																																																																																							0
+Avatar of Halbu	1				100					2	hrn	tal						Avatar of Halbu																																																																																							0
+Avatar of Natalya	1				100					2	hrn	flg						Avatar of Natalya																																																																																							0
+Avatar of Jamella	1				100					2	hrn	fng						Avatar of Jamella																																																																																							0
+Avatar of Larzuk	1				100					2	hrn	qll						Avatar of Larzuk																																																																																							0
+Avatar of Anya	1				100					2	hrn	spe						Avatar of Anya																																																																																							0
+Avatar of Malah	1				100					2	hrn	hrb						Avatar of Malah																																																																																							0
+Avatar of Qual-Kehk	1				100					2	tal	tal						Avatar of Qual-Kehk																																																																																							0
+Avatar of Clay Golem	1				100					2	tal	flg						Avatar of Clay Golem																																																																																							0
+Avatar of Blood Golem	1				100					2	tal	fng						Avatar of Blood Golem																																																																																							0
+Avatar of Iron Golem	1				100					2	tal	qll						Avatar of Iron Golem																																																																																							0
+Avatar of Fire Golem	1				100					2	tal	spe						Avatar of Fire Golem																																																																																							0
+Avatar of Hydra	1				100					2	tal	hrb						Avatar of Hydra																																																																																							0
+Avatar of Decoy	1				100					2	flg	flg						Avatar of Decoy																																																																																							0
+Avatar of Blade Sentry	1				100					2	flg	fng						Avatar of Blade Sentry																																																																																							0
+Avatar of Inferno Sentry	1				100					2	flg	qll						Avatar of Inferno Sentry																																																																																							0
+Avatar of Death Sentry	1				100					2	flg	spe						Avatar of Death Sentry																																																																																							0
+Avatar of Raven	1				100					2	flg	hrb						Avatar of Raven																																																																																							0
+Avatar of Wolf	1				100					2	fng	fng						Avatar of Wolf																																																																																							0
+Avatar of Spirit Barb	1				100					2	fng	qll						Avatar of Spirit Barb																																																																																							0
+Avatar of Bear	1				100					2	fng	spe						Avatar of Bear																																																																																							0
+Avatar of Werewolf	1				100					2	fng	hrb						Avatar of Werewolf																																																																																							0
+Avatar of Werebear	1				100					2	qll	qll						Avatar of Werebear																																																																																							0
+Avatar of Chicken	1				100					2	qll	spe						Avatar of Chicken																																																																																							0
+Avatar of Rat	1				100					2	qll	hrb						Avatar of Rat																																																																																							0
+Avatar of Cow	1				100					2	spe	spe						Avatar of Cow																																																																																							0
+Avatar of Camel	1				100					2	spe	hrb						Avatar of Camel																																																																																							0
+Avatar of Male Citizen 1	1				100					2	hrb	hrb						Avatar of Male Citizen 1																																																																																							0
+Avatar of Female Citizen 1	1				100					3	hrt	hrt	hrt					Avatar of Female Citizen 1																																																																																							0
+Avatar of Merchant 1	1				100					3	hrt	hrt	brz					Avatar of Merchant 1																																																																																							0
+Avatar of Merchant 2	1				100					3	hrt	hrt	jaw					Avatar of Merchant 2																																																																																							0
+Avatar of Bug	1				100					3	hrt	hrt	eyz					Avatar of Bug																																																																																							0
+Avatar of Scorpion	1				100					3	hrt	hrt	hrn					Avatar of Scorpion																																																																																							0
+Avatar of Larva	1				100					3	hrt	hrt	tal					Avatar of Larva																																																																																							0
+Avatar of Male Citizen 2	1				100					3	hrt	hrt	flg					Avatar of Male Citizen 2																																																																																							0
+Avatar of Female Citizen 2	1				100					3	hrt	hrt	fng					Avatar of Female Citizen 2																																																																																							0
+Avatar of Snake	1				100					3	hrt	hrt	qll					Avatar of Snake																																																																																							0
+Avatar of Parrot	1				100					3	hrt	hrt	spe					Avatar of Parrot																																																																																							0
+Avatar of Spider	1				100					3	hrt	hrt	hrb					Avatar of Spider																																																																																							0
+Avatar of Dark Wanderer	1				100					3	hrt	brz	brz					Avatar of Dark Wanderer																																																																																							0
+Avatar of Bunny	1				100					3	hrt	brz	jaw					Avatar of Bunny																																																																																							0
+Avatar of Dead Barbarian	1				100					3	hrt	brz	eyz					Avatar of Dead Barbarian																																																																																							0
+Avatar of Horse	1				100					3	hrt	brz	hrn					Avatar of Horse																																																																																							0
+Avatar of Pig	1				100					3	hrt	brz	tal					Avatar of Pig																																																																																							0
+Avatar of Seagull	1				100					3	hrt	brz	flg					Avatar of Seagull																																																																																							0
+Avatar of LG Guard	1				100					3	hrt	brz	fng					Avatar of LG Guard																																																																																							0
+Avatar of Skeleton	1				100					3	hrt	brz	qll					Avatar of Skeleton																																																																																							0
+Avatar of Zombie	1				100					3	hrt	brz	spe					Avatar of Zombie																																																																																							0
+Avatar of Bighead	1				100					3	hrt	brz	hrb					Avatar of Bighead																																																																																							0
+Avatar of Foul Crow	1				100					3	hrt	jaw	jaw					Avatar of Foul Crow																																																																																							0
+Avatar of Fallen One	1				100					3	hrt	jaw	eyz					Avatar of Fallen One																																																																																							0
+Avatar of Brute	1				100					3	hrt	jaw	hrn					Avatar of Brute																																																																																							0
+Avatar of Sand Raider	1				100					3	hrt	jaw	tal					Avatar of Sand Raider																																																																																							0
+Avatar of Wraith	1				100					3	hrt	jaw	flg					Avatar of Wraith																																																																																							0
+Avatar of Corrupt Rogue	1				100					3	hrt	jaw	fng					Avatar of Corrupt Rogue																																																																																							0
+Avatar of Baboon	1				100					3	hrt	jaw	qll					Avatar of Baboon																																																																																							0
+Avatar of Goatman	1				100					3	hrt	jaw	spe					Avatar of Goatman																																																																																							0
+Avatar of Fallen Shaman	1				100					3	hrt	jaw	hrb					Avatar of Fallen Shaman																																																																																							0
+Avatar of Quill Rat	1				100					3	hrt	eyz	eyz					Avatar of Quill Rat																																																																																							0
+Avatar of Sand Maggot	1				100					3	hrt	eyz	hrn					Avatar of Sand Maggot																																																																																							0
+Avatar of Claw Viper	1				100					3	hrt	eyz	tal					Avatar of Claw Viper																																																																																							0
+Avatar of Sand Leaper	1				100					3	hrt	eyz	flg					Avatar of Sand Leaper																																																																																							0
+Avatar of Panther Woman	1				100					3	hrt	eyz	fng					Avatar of Panther Woman																																																																																							0
+Avatar of Swarm	1				100					3	hrt	eyz	qll					Avatar of Swarm																																																																																							0
+Avatar of Scarab	1				100					3	hrt	eyz	spe					Avatar of Scarab																																																																																							0
+Avatar of Mummy	1				100					3	hrt	eyz	hrb					Avatar of Mummy																																																																																							0
+Avatar of Unraveller	1				100					3	hrt	hrn	hrn					Avatar of Unraveller																																																																																							0
+Avatar of Vulture	1				100					3	hrt	hrn	tal					Avatar of Vulture																																																																																							0
+Avatar of Mosquito	1				100					3	hrt	hrn	flg					Avatar of Mosquito																																																																																							0
+Avatar of Willowisp	1				100					3	hrt	hrn	fng					Avatar of Willowisp																																																																																							0
+Avatar of Arachnid	1				100					3	hrt	hrn	qll					Avatar of Arachnid																																																																																							0
+Avatar of Thorn Hulk	1				100					3	hrt	hrn	spe					Avatar of Thorn Hulk																																																																																							0
+Avatar of Vampire	1				100					3	hrt	hrn	hrb					Avatar of Vampire																																																																																							0
+Avatar of Bat Demon	1				100					3	hrt	tal	tal					Avatar of Bat Demon																																																																																							0
+Avatar of Fetish	1				100					3	hrt	tal	flg					Avatar of Fetish																																																																																							0
+Avatar of Dark Ranger	1				100					3	hrt	tal	fng					Avatar of Dark Ranger																																																																																							0
+Avatar of Dark Lancer	1				100					3	hrt	tal	qll					Avatar of Dark Lancer																																																																																							0
+Avatar of Skeleton Archer	1				100					3	hrt	tal	spe					Avatar of Skeleton Archer																																																																																							0
+Avatar of Maggot Baby	1				100					3	hrt	tal	hrb					Avatar of Maggot Baby																																																																																							0
+Avatar of Blunder Bore	1				100					3	hrt	flg	flg					Avatar of Blunder Bore																																																																																							0
+Avatar of Bone Fetish	1				100					3	hrt	flg	fng					Avatar of Bone Fetish																																																																																							0
+Avatar of Maggot	1				100					3	hrt	flg	qll					Avatar of Maggot																																																																																							0
+Avatar of Scimitar	1				100					3	hrt	flg	spe					Avatar of Scimitar																																																																																							0
+Avatar of Zealot	1				100					3	hrt	flg	hrb					Avatar of Zealot																																																																																							0
+Avatar of Cantor	1				100					3	hrt	fng	fng					Avatar of Cantor																																																																																							0
+Avatar of Frog Demon	1				100					3	hrt	fng	qll					Avatar of Frog Demon																																																																																							0
+Avatar of Swamp Tentacle	1				100					3	hrt	fng	spe					Avatar of Swamp Tentacle																																																																																							0
+Avatar of Swamp Serpent	1				100					3	hrt	fng	hrb					Avatar of Swamp Serpent																																																																																							0
+Avatar of Gargoyle Trap	1				100					3	hrt	qll	qll					Avatar of Gargoyle Trap																																																																																							0
+Avatar of Poison Skeleton	1				100					3	hrt	qll	spe					Avatar of Poison Skeleton																																																																																							0
+Avatar of Fetish Shaman	1				100					3	hrt	qll	hrb					Avatar of Fetish Shaman																																																																																							0
+Avatar of Vile Mother	1				100					3	hrt	spe	spe					Avatar of Vile Mother																																																																																							0
+Avatar of Vile Child	1				100					3	hrt	spe	hrb					Avatar of Vile Child																																																																																							0
+Avatar of Finger Mage	1				100					3	hrt	hrb	hrb					Avatar of Finger Mage																																																																																							0
+Avatar of Regurgitator	1				100					3	brz	brz	brz					Avatar of Regurgitator																																																																																							0
+Avatar of Doom Knight	1				100					3	brz	brz	jaw					Avatar of Doom Knight																																																																																							0
+Avatar of Necro Mage	1				100					3	brz	brz	eyz					Avatar of Necro Mage																																																																																							0
+Avatar of Invisible One	1				100					3	brz	brz	hrn					Avatar of Invisible One																																																																																							0
+Avatar of Slinger	1				100					3	brz	brz	tal					Avatar of Slinger																																																																																							0
+Avatar of Cold Skeleton	1				100					3	brz	brz	flg					Avatar of Cold Skeleton																																																																																							0
+Avatar of Fire Skeleton	1				100					3	brz	brz	fng					Avatar of Fire Skeleton																																																																																							0
+Avatar of Light Skeleton	1				100					3	brz	brz	qll					Avatar of Light Skeleton																																																																																							0
+Avatar of Hell Bovine	1				100					3	brz	brz	spe					Avatar of Hell Bovine																																																																																							0
+Avatar of Fetish Blower	1				100					3	brz	brz	hrb					Avatar of Fetish Blower																																																																																							0
+Avatar of Spirit	1				100					3	brz	jaw	jaw					Avatar of Spirit																																																																																							0
+Avatar of Trapped Soul	1				100					3	brz	jaw	eyz					Avatar of Trapped Soul																																																																																							0
+Avatar of Reanimated Horde	1				100					3	brz	jaw	hrn					Avatar of Reanimated Horde																																																																																							0
+Avatar of Siege Beast	1				100					3	brz	jaw	tal					Avatar of Siege Beast																																																																																							0
+Avatar of Snow Yeti	1				100					3	brz	jaw	flg					Avatar of Snow Yeti																																																																																							0
+Avatar of Minion	1				100					3	brz	jaw	fng					Avatar of Minion																																																																																							0
+Avatar of Minion Suicider	1				100					3	brz	jaw	qll					Avatar of Minion Suicider																																																																																							0
+Avatar of Succubus	1				100					3	brz	jaw	spe					Avatar of Succubus																																																																																							0
+Avatar of Witch	1				100					3	brz	jaw	hrb					Avatar of Witch																																																																																							0
+Avatar of Overseer	1				100					3	brz	eyz	eyz					Avatar of Overseer																																																																																							0
+Avatar of Imp	1				100					3	brz	eyz	hrn					Avatar of Imp																																																																																							0
+Avatar of Frozen Horror	1				100					3	brz	eyz	tal					Avatar of Frozen Horror																																																																																							0
+Avatar of Blood Lord	1				100					3	brz	eyz	flg					Avatar of Blood Lord																																																																																							0
+Avatar of Death Mauler	1				100					3	brz	eyz	fng					Avatar of Death Mauler																																																																																							0
+Avatar of Putrid Defiler	1				100					3	brz	eyz	qll					Avatar of Putrid Defiler																																																																																							0
+Avatar of Pain Worm	1				100					3	brz	eyz	spe					Avatar of Pain Worm																																																																																							0
+Avatar of Baal Tentacle	1				100					3	brz	eyz	hrb					Avatar of Baal Tentacle																																																																																							0
+Avatar of Venom Lord	1				100					3	brz	hrn	hrn					Avatar of Venom Lord																																																																																							0
+Avatar of Speed	1				100					3	brz	hrn	tal					Avatar of Speed																																																																																							0
+Avatar of Ancient Statue	1				100					3	brz	hrn	flg					Avatar of Ancient Statue																																																																																							0
+Avatar of Wall	1				100					3	brz	hrn	fng					Avatar of Wall																																																																																							0
+Avatar of Catapult	1				100					3	brz	hrn	qll					Avatar of Catapult																																																																																							0
+Avatar of Minion Spawner	1				100					3	brz	hrn	spe					Avatar of Minion Spawner																																																																																							0
+Avatar of Baricade Door	1				100					3	brz	hrn	hrb					Avatar of Baricade Door																																																																																							0
+Avatar of Prison Door	1				100					3	brz	tal	tal					Avatar of Prison Door																																																																																							0
+Avatar of Tower	1				100					3	brz	tal	flg					Avatar of Tower																																																																																							0
+Avatar of Melee Trap	1				100					3	brz	tal	fng					Avatar of Melee Trap																																																																																							0
+Avatar of Turret	1				100					3	brz	tal	qll					Avatar of Turret																																																																																							0
+Avatar of Bone Prison	1				100					3	brz	tal	spe					Avatar of Bone Prison																																																																																							0
+Avatar of Bone Wall	1				100					3	brz	tal	hrb					Avatar of Bone Wall																																																																																							0
+Avatar of Bird	1				100					3	brz	flg	flg					Avatar of Bird																																																																																							0
+Avatar of Bat	1				100					3	brz	flg	fng					Avatar of Bat																																																																																							0
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
